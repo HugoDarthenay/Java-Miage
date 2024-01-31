@@ -38,6 +38,13 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- Autres dépendances -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>test-csv</artifactId>
+            <version>1.9.0</version> <!-- Utilisez la dernière version disponible -->
+        </dependency>
     </dependencies>
 
     <build>
