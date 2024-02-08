@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.ElementController">
+   <children>
+      <TableView layoutX="203.0" prefHeight="720.0" prefWidth="875.0">
+        <columns>
+          <TableColumn id="codeColumn" prefWidth="138.09530639648438" text="Code" />
+          <TableColumn id="nomColumn" prefWidth="112.00003051757812" text="Nom" />
+            <TableColumn id="quantiteColumn" prefWidth="115.42852783203125" text="Quantité" />
+            <TableColumn id="uniteColumn" prefWidth="156.1905517578125" text="Unité" />
+            <TableColumn id="achatColumn" prefWidth="194.09521484375" text="Achat" />
+            <TableColumn id="venteColumn" prefWidth="167.61920166015625" text="Vente" />
+        </columns>
+      </TableView>
+      <VBox layoutX="-1.0" layoutY="-1.0" prefHeight="722.0" prefWidth="204.0" style="-fx-background-color: #1D4971;">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="149.0" prefWidth="205.0" style="-fx-background-color: #7964FF; color: white;" text="J" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="48.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="113.0" prefWidth="203.0" style="-fx-background-color: none;" styleClass="margin-top:20%;" text="Matière Premirèes" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="113.0" prefWidth="203.0" style="-fx-background-color: none;" styleClass="margin-top:20%;" text="Production" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="113.0" prefWidth="203.0" style="-fx-background-color: none;" styleClass="margin-top:20%;" text="Achats/Ventes" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="113.0" prefWidth="203.0" style="-fx-background-color: none;" text="Calculs" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
